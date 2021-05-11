@@ -19,7 +19,7 @@ public class App
         Log.error(message + " Will print on Error");
         Log.fatal(message + " Will print on Fatal");
         Log.info("Appending String : {}.",message);
-        System.out.println(message);
+        System.out.println(message + " Some changes");
         
     }
 }
